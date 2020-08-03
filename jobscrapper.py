@@ -38,7 +38,7 @@ def mainprocess(url):
             return
 
         # specify language and frameworks
-        if("python" in job_title or "djnago" in job_title):
+        if("python" in job_title or "django" in job_title):
 
             # specify required job level
             if("begineer" in job_level):
