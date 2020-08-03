@@ -33,6 +33,7 @@ def mainprocess(url):
         job_level = str(job_footer_lis[1].text).lower()
         job_posted_time = str(job_footer_lis[2].text).lower()
 
+        # if job was added a month ago, the program stops
         if("month" in job_posted_time):
             return
 
